@@ -5,7 +5,7 @@ import { uniform } from '../core/UniformNode.js';
 import { objectViewPosition } from '../accessors/Object3DNode.js';
 import { addNodeClass } from '../core/Node.js';
 
-import { RectAreaLight, Matrix4, Vector3, UniformsLib } from 'three';
+import { RectAreaLight, Matrix4, Vector3, UniformsLib } from '../../../../build/three.module.js';
 
 const _matrix41 = new Matrix4();
 const _matrix42 = new Matrix4();

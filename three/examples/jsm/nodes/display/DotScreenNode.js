@@ -6,7 +6,7 @@ import { uv } from '../accessors/UVNode.js';
 import { texturePass } from './PassNode.js';
 import { sin, cos } from '../math/MathNode.js';
 import { add } from '../math/OperatorNode.js';
-import { Vector2, RenderTarget } from 'three';
+import { Vector2, RenderTarget } from '../../../../build/three.module.js';
 import QuadMesh from '../../objects/QuadMesh.js';
 
 const quadMesh = new QuadMesh();

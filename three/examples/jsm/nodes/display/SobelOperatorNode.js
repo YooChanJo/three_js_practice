@@ -5,7 +5,7 @@ import { addNodeElement, tslFn, nodeObject, vec2, vec3, vec4, mat3 } from '../sh
 import { NodeUpdateType } from '../core/constants.js';
 import { uniform } from '../core/UniformNode.js';
 import { add } from '../math/OperatorNode.js';
-import { Vector2 } from 'three';
+import { Vector2 } from '../../../../build/three.module.js';
 
 class SobelOperatorNode extends TempNode {
 

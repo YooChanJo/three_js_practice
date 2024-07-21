@@ -1,4 +1,4 @@
-import { Material, NormalBlending } from 'three';
+import { Material, NormalBlending } from '../../../../build/three.module.js';
 import { getNodeChildren, getCacheKey } from '../core/NodeUtils.js';
 import { attribute } from '../core/AttributeNode.js';
 import { output, diffuseColor, varyingProperty } from '../core/PropertyNode.js';

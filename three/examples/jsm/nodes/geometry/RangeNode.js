@@ -5,7 +5,7 @@ import { instancedBufferAttribute } from '../accessors/BufferAttributeNode.js';
 import { instanceIndex } from '../core/IndexNode.js';
 import { nodeProxy, float } from '../shadernode/ShaderNode.js';
 
-import { Vector4, MathUtils, InstancedBufferAttribute } from 'three';
+import { Vector4, MathUtils, InstancedBufferAttribute } from '../../../../build/three.module.js';
 
 let min = null;
 let max = null;

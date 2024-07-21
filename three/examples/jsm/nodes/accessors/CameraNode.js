@@ -1,6 +1,6 @@
 import { uniform } from '../core/UniformNode.js';
 import { sharedUniformGroup } from '../core/UniformGroupNode.js';
-import { Vector3 } from 'three';
+import { Vector3 } from '../../../../build/three.module.js';
 
 const cameraGroup = /*#__PURE__*/ sharedUniformGroup( 'camera' ).onRenderUpdate( () => {
 

@@ -8,7 +8,7 @@ import { uniform } from '../core/UniformNode.js';
 import { RenderTarget } from 'three';
 import { sign, max } from '../math/MathNode.js';
 import QuadMesh from '../../objects/QuadMesh.js';
-import { NoToneMapping, Vector2 } from 'three';
+import { NoToneMapping, Vector2 } from '../../../../build/three.module.js';
 
 const _size = new Vector2();
 

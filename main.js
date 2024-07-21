@@ -1,5 +1,5 @@
 import * as THREE from "./three/build/three.module.js"
-import { OrbitControls } from './three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from './three/examples/jsm/Addons.js';
 
 // All three libs require path change for github usage, please consider it before deploy
 

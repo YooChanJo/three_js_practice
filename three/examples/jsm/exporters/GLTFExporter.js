@@ -25,7 +25,7 @@ import {
 	Vector3,
 	Quaternion,
 	REVISION
-} from 'three';
+} from '../../../build/three.module.js';
 import { decompress } from './../utils/TextureUtils.js';
 
 

@@ -1,7 +1,7 @@
 import * as THREE from "./three/build/three.module.js"
 import { OrbitControls } from './three/examples/jsm/controls/OrbitControls.js';
 
-// false comment
+// All three libs require path change for github usage, please consider it before deploy
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000);

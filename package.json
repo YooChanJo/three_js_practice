@@ -10,8 +10,5 @@
   },
   "devDependencies": {
     "vite": "^5.3.4"
-  },
-  "dependencies": {
-    "three": "^0.166.1"
   }
 }

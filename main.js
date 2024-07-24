@@ -1,5 +1,6 @@
 import * as THREE from "./three/build/three.module.js"
 import { OrbitControls } from './three/examples/jsm/Addons.js';
+/* import { GLTFLoader } from "./three/examples/jsm/Addons.js"; */
 
 // All three libs require path change for github usage, please consider it before deploy
 
@@ -30,10 +31,10 @@ pointLight.position.set(0, 0, 0)
 const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(pointLight, ambientLight)
 
-const lightHelper = new THREE.PointLightHelper(pointLight);
+/* const lightHelper = new THREE.PointLightHelper(pointLight);
 const gridHelper = new THREE.GridHelper(200, 50);
 scene.add(lightHelper, gridHelper);
-
+ */
 
 const controls = new OrbitControls(camera, renderer.domElement);
 
@@ -49,6 +50,26 @@ function addStar() {
 }
 
 Array(200).fill().forEach(addStar);
+
+/* const loader = new GLTFLoader();
+loader.load("./doughnut.glb", (gltf) => {
+  console.log(gltf.scene.children[0].geometry.index.array);
+  
+  scene.add( gltf.scene );
+ */
+  /* gltf.animations; // Array<THREE.AnimationClip>
+  gltf.scene; // THREE.Group
+  gltf.scenes; // Array<THREE.Group>
+  gltf.cameras; // Array<THREE.Camera>
+  gltf.asset; // Object */
+/* }, 	function ( xhr ) {
+
+  console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+
+},
+(e) => { console.log(e) })
+
+ */
 
 function animate() {
   requestAnimationFrame( animate );
